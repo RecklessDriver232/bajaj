@@ -1,0 +1,15 @@
+{
+    "version": 2,
+    "builds": [
+        {
+            "src": "app.py",  // Replace with your Flask file name if different
+            "use": "@vercel/python"
+        }
+    ],
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "app.py"  // Ensure this matches the file name where your Flask app resides
+        }
+    ]
+}
