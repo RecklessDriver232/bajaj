@@ -17,7 +17,6 @@ def home():
         number = []
         smallest = []
         success = True
-        if data
         try:
             for i in data:
                 if i.isalpha():
